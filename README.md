@@ -1,4 +1,4 @@
-# Wiki
+# Encyclopedia
 I designed a Wikipedia-like online encyclopedia.
 Instead of using HTML to store encyclopedia, i used a lighter-weight human-friendly markup language.For this project, i’ll store encyclopedia entries using a markup language called **Markdown**.
 <img src="Images/Home.png" alt="Home page"/>
