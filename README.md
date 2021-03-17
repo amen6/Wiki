@@ -1,11 +1,62 @@
 # Wiki
-I designed a Wikipedia-like online encyclopedia.
-Instead of using HTML to store encyclopedia, i used a lighter-weight human-friendly markup language.For this project, i’ll store encyclopedia entries using a markup language called **Markdown**.
-<img src="Images/Home.png" alt="Home page"/>
-Here you can see all entry names listed on the home page, user can click on any entry name to be taken directly to that entry page.
-On the left you can notice the search box where the user is allowed to query to search for an encyclopedia entry, if the query **exactly** matches the name of any encyclopedia, the user will get redirected to that encyclopedia page, where you can also edit it content by clicking on the edit button
-<img src="Images/Page.png" alt="List Page"/>
-if the query doesn't **exactly** match the name of an encyclopedia entry, the user should instead be taken to a search results page that displays a list of all encyclopedia that have the query as part of its title, for example, if you searched for **py**, **Python** entry will appear in your page
-<img src="Images/Python.png" alt="Search Page"/> , you can click on the entry to go that entry page.
-You can create a new encyclopedia by clicking on the *Create New Page* button on left, you need to implement a title that no have used before, and you need to enter the Markdown content and save it after. <img src="Images/Create.png" alt="Create page"/>
-There's also a *Random Page* button that will take you to a random encyclopedia page.
+
+![Project Image](Images/Home.png)
+
+> Home page
+
+---
+
+### Table of contents
+Headers location reference.
+
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [What have i used](#what-i-have-used)
+- [Images](https://github.com/amen6/Wiki/tree/main/Images)
+
+---
+
+## Description
+
+ Wiki is a Wikipedia-like online encyclopedia. Instead of using HTML to store encyclopedia, i used a lighter-weight human-friendly markup language. For this project, i’ll store encyclopedia entries using a markup language called **Markdown**.
+
+#### What i have used
+
+- HTML
+- Css
+- Python
+- Django
+- Bootstrap
+
+[Back To The Top](#wiki)
+
+---
+
+## How To Use
+
+- ### Home
+
+  In the *Home* page user can see all entry titles.
+
+  - When user clicks on:
+
+    - `Entry title`: he will be taken directly to that entry page.
+
+    - `Home`: wherever the user is, he will get redirected to the *Home* page.
+
+    - `Create new page`: he will go to page where he need to implement a *title* that it's not used, and enter the Markdown content, and click `Save` after.
+
+    - `Random page`: he will get redirected to a random encyclopedia page.
+
+- ### Searching
+    The search is very simple and user friendly, if the query **exactly** matches the name of any encyclopedia, the user will get redirected to that encyclopedia page, if not, the user should instead be taken to a search results page that displays a list of all encyclopedia that have the query as part of its title. \
+    -  For example: \
+      If the query was **py**, **Python** entry will appear.
+
+- ### Edit
+  User can edit a page content by going to that encyclopedia page, and clicking the `Edit` button.
+
+
+[Back To The Top](#wiki)
+
+---
