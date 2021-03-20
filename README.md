@@ -39,9 +39,11 @@
     - `Random page`: he will get redirected to a random encyclopedia page.
 
 - ### Searching
-    The search is very simple and user friendly, if the query **exactly** matches the name of any encyclopedia, the user will get redirected to that encyclopedia page, if not, the user should instead be taken to a search results page that displays a list of all encyclopedia that have the query as part of its title. \
+    The search is very simple and user friendly, if the query **exactly** matches the name of any encyclopedia, the user will get redirected to that encyclopedia page, if not, the user should instead be taken to a search results page that displays a list of all encyclopedia that have the query as part of its title.
+    
     -  For example: \
-      If the query was **py**, **Python** entry will appear. \
+      If the query was **py**, **Python** entry will appear.
+
       > See [Search](https://github.com/amen6/Wiki/blob/main/Images/Python.png)
 
 - ### Edit
