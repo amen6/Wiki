@@ -6,16 +6,6 @@
 
 ---
 
-### Table of contents
-Headers location reference.
-
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [What have i used](#what-i-have-used)
-- [Images](https://github.com/amen6/Wiki/tree/main/Images)
-
----
-
 ## Description
 
  Wiki is a Wikipedia-like online encyclopedia. Instead of using HTML to store encyclopedia, i used a lighter-weight human-friendly markup language. For this project, i’ll store encyclopedia entries using a markup language called **Markdown**.
@@ -52,6 +42,7 @@ Headers location reference.
     The search is very simple and user friendly, if the query **exactly** matches the name of any encyclopedia, the user will get redirected to that encyclopedia page, if not, the user should instead be taken to a search results page that displays a list of all encyclopedia that have the query as part of its title. \
     -  For example: \
       If the query was **py**, **Python** entry will appear.
+      > See [Search](https://github.com/amen6/Wiki/blob/main/Images/Python.png)
 
 - ### Edit
   User can edit a page content by going to that encyclopedia page, and clicking the `Edit` button.
